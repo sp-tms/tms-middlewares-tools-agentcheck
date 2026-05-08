@@ -1,0 +1,43 @@
+{
+	"name" : "AgentCheck",
+	"display_name" : "Agent Check",
+	"description" : "<p>This middleware is used by authentication package. Once enabled, user need to verify their location (Browser Agent) to access any resource.</p>",
+	"module_type" : "middlewares",
+	"app_type" : "tms",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-tms/tms-middlewares-tools-agentcheck",
+	"class" : "Apps\\Tms\\Middlewares\\AgentCheck\\AgentCheck",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.15",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Transport Management System",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-tms/tms"
+		},
+		"packages" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"settings" : []
+}
